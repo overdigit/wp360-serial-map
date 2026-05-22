@@ -1,3 +1,9 @@
+wp360-serial-map (1.0.0-3) trixie; urgency=low
+
+  * Move executable from lib to libexec.
+
+ -- Overdigit <info@overdigit.com>  Fri, 22 May 2026 12:00:02 +0200
+
 wp360-serial-map (1.0.0-2) bookworm trixie; urgency=low
 
   * Release for Trixie.

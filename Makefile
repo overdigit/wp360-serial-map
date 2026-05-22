@@ -8,7 +8,7 @@ wp360-set-rs485: main.c
 install: all
 	install -d $(DESTDIR)$(prefix)/lib/systemd/system
 	install -d $(DESTDIR)$(prefix)/lib/udev/rules.d
-	install -d $(DESTDIR)$(prefix)/lib/wp360-serial-map
+	install -d $(DESTDIR)$(prefix)/libexec/wp360-serial-map
 	install wp360-set-rs485 $(DESTDIR)$(prefix)/lib/wp360-serial-map
 	install wp360-serial-map.service $(DESTDIR)$(prefix)/lib/systemd/system
 	install 99-serial.rules $(DESTDIR)$(prefix)/lib/udev/rules.d/99-serial.rules
