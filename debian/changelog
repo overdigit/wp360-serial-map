@@ -1,3 +1,9 @@
+wp360-serial-map (1.0.1-1) trixie; urgency=low
+
+  * Remove manual service packaging.
+
+ -- Overdigit <info@overdigit.com>  Fri, 22 May 2026 12:46:58 +0200
+
 wp360-serial-map (1.0.0-3) trixie; urgency=low
 
   * Move executable from lib to libexec.
